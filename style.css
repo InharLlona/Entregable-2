@@ -1,0 +1,37 @@
+.cCuerpo{
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.cDatos{
+    width: 49%;
+    padding: 10px;
+    border: solid 1px rgb(133, 133, 134);
+    border-radius: 1mm;
+    background-color: rgba(186, 196, 207, 0.103);
+    display:flex;
+    justify-content: space-between;  
+}
+.cNombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.cImage{
+    border: solid 1px black;
+    width: 300px;
+    height: auto;
+}
+.cReseña{
+    width: 45%;
+    height: 50%;
+    padding: 10px;
+    border: solid 1px rgb(133, 133, 134);
+    border-radius: 1mm;
+    background-color: rgba(186, 196, 207, 0.103);
+    flex-direction: vertical;
+    justify-content: space-between;
+}
+.cEstrellas{
+    color: rgb(235, 235, 51);
+}
